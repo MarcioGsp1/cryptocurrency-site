@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*%  font-family: 'Roboto', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 70%;
+    height: 80%;
+    background: #000;
+    box-shadow: 0px 40px 20px -20px rgb(0,0,0,.5);
+    overflow: hidden;
+    padding: 10px 50px;
+}
+
+header nav {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    /*border: 1px solid #fff;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo {
+    width: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    padding: 3px 10px;
+}
+header nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 12px;
+   padding: 5px 10px;
+   transition: .3s linear;
+}
+header nav ul li a:hover {
+   color: #000;
+   background-color: #fff;
+   border-radius: 20px;
+}
+
+header nav .bi-list {
+    color: #fff;
+    font-size: 20px;
+    cursor: position;
+    display: none;
+}
+
+section {
+    width: 100%;
+    height: 82%;
+    border: 1px solid #fff;
+    display: flex;
+}
+
+section .content , .img_bx {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #fff;
+}
+
+section .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .content .cont{
+    border: 1px solid #fff;
+    margin-left: 20%;
+}
+section .content .cont h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+}
+section .content .cont p{
+    width: 250px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 10px;
+    word-break: break-all;
+}
+section .content .cont button{
+    
+}
+
