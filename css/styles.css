@@ -78,7 +78,7 @@ section {
 section .content , .img_bx {
     width: 50%;
     height: 100%;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 section .content {
@@ -87,7 +87,7 @@ section .content {
     justify-content: flex-start;
 }
 section .content .cont{
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     margin-left: 20%;
 }
 section .content .cont h1{
@@ -103,6 +103,26 @@ section .content .cont p{
     word-break: break-all;
 }
 section .content .cont button{
-    
+    background: linear-gradient(150deg, #cf8f35, #fff4ca, #85400f);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-shadow: 2px 2px rgb(133, 72, 15, .5);
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+    border: none;
+    outline: none;
+}
+section .content .cont button:hover{
+    background: linear-gradient(150deg, #85400f, #fff4ca, #cf8f35);
 }
 
+section .content .cont button img {
+    width: 25px;
+    margin-left: 5px;
+    filter: drop-shadow(2px 0px 0px rgb(133, 75, 15, .5));
+}
